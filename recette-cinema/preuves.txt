@@ -1,0 +1,30 @@
+Sans reduction
+11 ans, votre billet coûte 1500
+12 ans, votre billet coûte 1500
+13 ans, votre billet coûte 1500
+14 ans, votre billet coûte 1500
+15 ans, votre billet coûte 1500
+16 ans, votre billet coûte 2500
+17 ans, votre billet coûte 2500
+18 ans, votre billet coûte 2500
+19 ans, votre billet coûte 2500
+20 ans, votre billet coûte 2500
+Somme totale de tous les billets : 20000
+Nombre de billets pour les moins de 16 ans : 5
+Nombre de billets pour les 16 ans et plus : 5
+
+\\ Apres reduction
+
+11 ans, votre billet coûte 1500
+12 ans, votre billet coûte 1500
+13 ans, votre billet coûte 1500
+14 ans, votre billet coûte 1500
+15 ans, votre billet coûte 1500
+16 ans, votre billet coûte 2500
+17 ans, votre billet coûte 2500
+18 ans, votre billet coûte 2000 après réduction
+19 ans, votre billet coûte 2000 après réduction
+20 ans, votre billet coûte 2000 après réduction
+Somme totale de tous les billets : 18500
+Nombre de billets pour les moins de 16 ans : 5
+Nombre de billets pour les 16 ans et plus : 5
