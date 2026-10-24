@@ -1,0 +1,42 @@
+
+switch (codeDuPlat) {
+    case 1:
+        plat = "attieke poisson";
+        prixUnitaire = 1500;
+        break;
+    case 2:
+        plat = "riz poulet";
+        prixUnitaire = 2000;
+        break;
+    case 3:
+        plat = "alloco oeuf";
+        prixUnitaire = 1000;
+        break;
+    default:
+        plat = "plat invalide";
+        prixUnitaire = 0;
+        console.log("Plat invalide");
+        process.exit(1);
+}
+
+function calculerTotal(prix, quantite) {
+    return prix * quantite;
+}
+
+let total = calculerTotal(prixUnitaire, quantite);
+
+console.log("Client : " + client);
+console.log("Plat choisi : " + plat);
+console.log("Les différentes portions :");
+
+for (let i = 1; i <= quantite; i++) {
+    console.log("Portion numéro " + i + " : " + plat + " - " + prixUnitaire + " FCFA");
+}
+
+console.log("Total à payer : " + total + " FCFA");
+
+if (montantVerse >= total) {
+    console.log("Monnaie : " + (montantVerse - total) + " FCFA");
+} else {
+    console.log("Montant manquant : " + (total - montantVerse) + " FCFA");
+}
