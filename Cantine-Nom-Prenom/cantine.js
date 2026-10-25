@@ -1,9 +1,9 @@
 
 // Déclaration des variables
 let client = "Awa";
-let codeDuPlat = 1;
-let quantiteTexte = "3";
-let montantVerse = 5000;
+let codeDuPlat = 3;
+let quantiteTexte = "4";
+let montantVerse = 4000;
 let plat;
 let prixUnitaire;
 let quantite = Number(quantiteTexte);
