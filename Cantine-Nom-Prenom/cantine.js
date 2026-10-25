@@ -1,8 +1,8 @@
 // declaration des variables
 let client = "Awa";
-let codeDuPlat = 1
-let quantitetexte = ("3");
-let montantVerse =5000;
+let codeDuPlat = 3
+let quantitetexte = ("4");
+let montantVerse =4000;
 let plat;
 let prixUnitaire;
 // conversion de la quantite en nombre
